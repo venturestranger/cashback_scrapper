@@ -52,4 +52,4 @@ Cashback Percent: 10%
 Purchase Category Family: ['онлайн покупки', 'магазин', 'роуминг', 'apple pay', 'sumsung pay', 'google pay', 'музыка', 'геймер', 'apple', 'netflix', 'spotify', 'google', 'интернет магазин', 'markets', 'игровые сервисы', 'онлайн кино', 'онлайн музыка']
 ```
 
-Make sure to have the `presets.py` and `utils.py` files available, which are assumed to contain the `cards` and `objectives` presets and the `AhoCorasick` utility class, respectively. Adjust the usage example to match your specific requirements and data sources.
+The retrievable element should contain information about a cashback condition as well as what type of card is getting scrapped. Make sure, you have splitted the original web-page into paragraphs and consider them individually to proceed on retrieving cashback offers.
