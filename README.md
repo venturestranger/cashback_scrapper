@@ -1,4 +1,4 @@
-# Content Retriever
+# Cashback Retriever
 
 The `ContentRetriever` class is designed to extract information from web page elements related to credit card cashback offers. It utilizes various methods to parse and extract relevant data, such as cashback details, card types, and eligible purchase categories.
 
