@@ -23,7 +23,7 @@ class ContentRetriever:
 	# retrieve information about available cashback from a given web-page element
 	def retrieve_info_from_element(self, el):
 		foll = []
-		prev = []
+		prev = [el.get_text()]
 		
 		cur = el.parent
 		for i in range(4):
